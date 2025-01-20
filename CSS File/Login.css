@@ -1,0 +1,74 @@
+body {
+    background-image: url("../Images/Stones.jpg");
+    font-family: Arial, sans-serif;
+    max-width: 100%;
+    height:auto;
+    background-position-x: 80%;
+    background-position-y: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+img{
+   max-width: 100%;
+   height: auto;
+   position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.login-form {
+    background-color: rgba(255, 255, 255, 0.616);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    box-shadow: 0px 0px 5px rgba(245, 84, 84, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+.login-form input[type="text"]:hover,
+.login-form input[type="password"]:hover {
+    box-shadow: 0px 0px 10px rgba(197, 178, 67, 0.658)
+}
+
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #3b3d3b;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #e73d3d;
+}
+
+@media (max-width: 600px) {
+    .login-form {
+        width: 100%;
+    }
+}
+

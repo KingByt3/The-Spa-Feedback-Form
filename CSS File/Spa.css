@@ -1,0 +1,78 @@
+
+.feedback-form-container {
+    margin: 5% 0 0 0; /* set left margin to 20% */
+    display:inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgba(255, 254, 254, 0.829);
+    border-radius: 20px;
+}
+form{
+    display: inline-block;
+    padding: 2rem;
+    padding-right: -50px;
+    font-family: 'verdana';
+    font-size: 16px;
+  }
+
+
+
+.feedback-form-container h2 {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: -10%;
+   
+}
+
+.feedback-form-container table {
+    width: auto;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    
+ 
+}
+
+.feedback-form-container th,
+.feedback-form-container td {
+    border: none;
+    padding: 8px;
+    text-align: left;
+  
+}
+
+td{
+    color: rgb(0, 0, 0);
+
+    
+}
+
+.feedback-form-container th {
+    background-color: #807e7e;
+    font-weight: normal;
+    
+}
+
+.feedback-form-container input[type="radio"] {
+    margin-right: 0.5rem;
+}
+
+
+body{
+    background-image: url("../Images/BG_SPA.png");
+    background-size: auto;
+    max-width: 100%;
+    height: auto;
+    background-position-x: 80%;
+    background-position-y: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+      
+}
+label{
+    color: #807e7e;
+}
+.btn{
+    background-color: red;
+
+
+}
